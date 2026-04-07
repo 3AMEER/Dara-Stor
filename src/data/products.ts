@@ -9,7 +9,7 @@ export interface Product {
 }
 
 import img1 from '../../src/img/Product1.jpeg'
-
+import img2 from '../../src/img/Product2.jpeg'
 export const products: Product[] = [
   {
     id: "1",
@@ -17,7 +17,7 @@ export const products: Product[] = [
     price: 100,
     oldPrice: 180,
     category: "accessories",
-    image: [img1],
+    image: img1,
     description: "كريم مرطب غني بحمض الهيالورونيك يعيد الترطيب العميق للبشرة ويمنحها نضارة طبيعية تدوم طوال اليوم.",
   },
   {
@@ -113,5 +113,14 @@ export const products: Product[] = [
     category: "skincare",
     image: "https://images.unsplash.com/photo-1532947974-2e3986375243?w=400&h=400&fit=crop",
     description: "واقي شمس خفيف بعامل حماية SPF 50 يحمي البشرة من الأشعة فوق البنفسجية دون ترك أثر أبيض.",
+  },
+    {
+    id: "13",
+    name: "ساعات شي إن التحفه",
+    price: 230,
+    oldPrice: 250,
+    category: "accessories",
+    image: img2,
+    description: "ساعه اوريجنال ومنسيابه لجميع الاعمار ويوجد جميع الاوان والاحجام   ",
   },
 ];
