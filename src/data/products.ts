@@ -10,6 +10,19 @@ export interface Product {
 
 import img1 from '../../src/img/Product1.jpeg'
 import img2 from '../../src/img/Product2.jpeg'
+import img3 from '../../src/img/Product3.jpeg'
+import img4 from '../../src/img/Product4.jpeg'
+import img5 from '../../src/img/Product5.jpeg'
+import img6 from '../../src/img/Product6.jpeg'
+import img7 from '../../src/img/Product7.jpeg'
+import img8 from '../../src/img/Product8.jpeg'
+import img9 from '../../src/img/Product9.jpeg'
+import img10 from '../../src/img/Product10.jpeg'
+import img11 from '../../src/img/Product11.jpeg'
+import img12 from '../../src/img/Product12.jpeg'
+import img13 from '../../src/img/Product13.jpeg'
+import img14 from '../../src/img/Product14.jpeg'
+import img15 from '../../src/img/Product15.jpeg'
 export const products: Product[] = [
   {
     id: "1",
@@ -122,5 +135,122 @@ export const products: Product[] = [
     category: "accessories",
     image: img2,
     description: "ساعه اوريجنال ومنسيابه لجميع الاعمار ويوجد جميع الاوان والاحجام   ",
+  },
+     {
+    id: "14",
+    name: "  هاند اتشين جولد ",
+    price: 130,
+    oldPrice: 170,
+    category: "accessories",
+    image: img3,
+    description: "    هاند اتشين جولد اناقه وتحفه وماتريال قويه جدا",
+  },
+      {
+    id: "15",
+    name: " سلسله بامب",
+    price: 80,
+    oldPrice: 110,
+    category: "accessories",
+    image: img4,
+    description: "  سلاسل حروف اناقه وشياكه ومتريال  استانلس ستيل قويه جدا ",
+  },
+      {
+    id: "16",
+    name: "  هاند اتشين جولد ",
+    price: 180,
+    oldPrice: 200,
+    category: "accessories",
+    image: img5,
+    description: "   شنط بناتي احدث موديل تحفه ومتريال قومي جدا وتعيش معاكي ويوجد منها جميع الاوان ",
+  },
+      {
+    id: "17",
+    name: "  هاند اتشين جولد بالخاتم بتاعه",
+    price: 140,
+    oldPrice: 170,
+    category: "accessories",
+    image: img6,
+    description: "    هاند اتشين جولد اناقه وتحفه وماتريال قويه جدا",
+  },
+      {
+    id: "18",
+    name: "  خاتم اسكوير جولد",
+    price: 80,
+    oldPrice: 110,
+    category: "accessories",
+    image: img7,
+    description: "   خاتم اسكوير جولد خاتم تحفه وفي منه جميع المقسات ومتريال قويه جدا ",
+  },
+      {
+    id: "19",
+    name: "  هاند اتشين جولد ",
+    price: 120,
+    oldPrice: 150,
+    category: "accessories",
+    image: img8,
+    description: "    هاند اتشين جولد اناقه وتحفه وماتريال قويه جدا",
+  },
+      {
+    id: "20",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img9,
+    description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+    {
+    id: "21",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img10,
+    description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+   {
+    id: "22",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img11,
+    description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+   {
+    id: "23",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img12,
+    description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+   {
+    id: "24",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img13,
+    description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+   {
+    id: "25",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img14,
+    description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+   {
+    id: "26",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img15,
+    description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
 ];
