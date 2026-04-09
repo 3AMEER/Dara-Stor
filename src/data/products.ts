@@ -8,36 +8,36 @@ export interface Product {
   description: string;
 }
 
-import img1 from '../../src/img/Product1.jpeg'
-import img2 from '../../src/img/Product2.jpeg'
-import img3 from '../../src/img/Product3.jpeg'
-import img4 from '../../src/img/Product4.jpeg'
-import img5 from '../../src/img/Product5.jpeg'
-import img6 from '../../src/img/Product6.jpeg'
-import img7 from '../../src/img/Product7.jpeg'
-import img8 from '../../src/img/Product8.jpeg'
-import img9 from '../../src/img/Product9.jpeg'
-import img10 from '../../src/img/Product10.jpeg'
-import img11 from '../../src/img/Product11.jpeg'
-import img12 from '../../src/img/Product12.jpeg'
-import img13 from '../../src/img/Product13.jpeg'
-import img14 from '../../src/img/Product14.jpeg'
-import img15 from '../../src/img/Product15.jpeg'
-import img16 from '../../src/img/Product16.jpeg'
-import img17 from '../../src/img/Product17.jpeg'
-import img18 from '../../src/img/Product18.jpeg'
-import img19 from '../../src/img/Product19.jpeg'
-import img20 from '../../src/img/Product20.jpeg'
-import img21 from '../../src/img/Product21.jpeg'
-import img22 from '../../src/img/Product22.jpeg'
-import img23 from '../../src/img/Product23.jpeg'
-import img24 from '../../src/img/Product24.jpeg'
-import img25 from '../../src/img/Product25.jpeg'
-import img26 from '../../src/img/Product26.jpeg'
-import img27 from '../../src/img/Product27.jpeg'
-import img28 from '../../src/img/Product28.jpeg'
-import img29 from '../../src/img/Product29.jpeg'
-import img30 from '../../src/img/Product30.jpeg'
+import img1 from "../img/Product1.jpeg";
+import img2 from "../img/Product2.jpeg";
+import img3 from "../img/Product3.jpeg";
+import img4 from "../img/Product4.jpeg";
+import img5 from "../img/Product5.jpeg";
+import img6 from "../img/Product6.jpeg";
+import img7 from "../img/Product7.jpeg";
+import img8 from "../img/Product8.jpeg";
+import img9 from "../img/Product9.jpeg";
+import img10 from "../img/Product10.jpeg";
+import img11 from "../img/Product11.jpeg";
+import img12 from "../img/Product12.jpeg";
+import img13 from "../img/Product13.jpeg";
+import img14 from "../img/Product14.jpeg";
+import img15 from "../img/Product15.jpeg";
+import img16 from "../img/product16.jpeg";
+import img17 from "../img/product17.jpeg";
+import img18 from "../img/product18.jpeg";
+import img19 from "../img/product19.jpeg";
+import img20 from "../img/product20.jpeg";
+import img21 from "../img/product21.jpeg";
+import img22 from "../img/product22.jpeg";
+import img23 from "../img/product23.jpeg";
+import img24 from "../img/product24.jpeg";
+import img25 from "../img/product25.jpeg";
+import img26 from "../img/product26.jpeg";
+import img27 from "../img/Product27.jpeg";
+import img28 from "../img/Product28.jpeg";
+import img29 from "../img/Product29.jpeg";
+import img30 from "../img/Product30.jpeg";
 
 export const products: Product[] = [
   {
