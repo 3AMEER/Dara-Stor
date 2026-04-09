@@ -23,6 +23,18 @@ import img12 from '../../src/img/Product12.jpeg'
 import img13 from '../../src/img/Product13.jpeg'
 import img14 from '../../src/img/Product14.jpeg'
 import img15 from '../../src/img/Product15.jpeg'
+import img16 from '../../src/img/Product16.jpeg'
+import img17 from '../../src/img/Product17.jpeg'
+import img18 from '../../src/img/Product18.jpeg'
+import img19 from '../../src/img/Product19.jpeg'
+import img20 from '../../src/img/Product20.jpeg'
+import img21 from '../../src/img/Product21.jpeg'
+import img22 from '../../src/img/Product22.jpeg'
+import img23 from '../../src/img/Product23.jpeg'
+import img24 from '../../src/img/Product24.jpeg'
+import img25 from '../../src/img/Product25.jpeg'
+import img26 from '../../src/img/Product26.jpeg'
+
 export const products: Product[] = [
   {
     id: "1",
@@ -252,5 +264,104 @@ export const products: Product[] = [
     category: "accessories",
     image: img15,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+     {
+    id: "27",
+    name: "  سلسله احجار فصوص",
+    price: 150,
+    oldPrice: 200,
+    category: "accessories",
+    image: img16,
+    description: "    سلسله احجار فصوص تحفه ومتريال قويه جدا ",
+  },
+     {
+    id: "28",
+    name: "  هاندتشين استانلس",
+    price: 110,
+    oldPrice: 130,
+    category: "accessories",
+    image: img17,
+    description: "    هاندتشين استانلس تحفه ومتريال قويه جدا",
+  },
+     {
+    id: "29",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img18,
+    description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+     {
+    id: "30",
+    name: "  منظم اكسسورات",
+    price: 40,
+    oldPrice: 60,
+    category: "accessories",
+    image: img19,
+    description: "    منظم اكسسورات تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+     {
+    id: "31",
+    name: " حلقان بيرسنج  جولد بلاتيد",
+    price: 140,
+    oldPrice: 160,
+    category: "accessories",
+    image: img20,
+    description: "    حلقان بيرسنج  جولد بلاتيد تحفه ومتريال قويه جدا",
+  },
+     {
+    id: "32",
+    name: "  شنطه يد",
+    price: 220,
+    oldPrice: 280,
+    category: "accessories",
+    image: img21,
+    description: "    شنطه يد تحفه وفي منه جميع المقسات ومتريال قويه جدا",
+  },
+     {
+    id: "33",
+    name: "  انسيال تلاته دور تحفه ",
+    price: 110,
+    oldPrice: 130,
+    category: "accessories",
+    image: img22,
+    description: "    انسيال تلاته دور تحفه ومتريال قويه جدا",
+  },
+     {
+    id: "34",
+    name: "  انسيال دورين",
+    price: 130,
+    oldPrice: 160,
+    category: "accessories",
+    image: img23,
+    description: "    انسيال دورين تحفه ومتريال قويه جدا",
+  },
+     {
+    id: "35",
+    name: "  خاتم استانلس عليه ضمان",
+    price: 90,
+    oldPrice: 110,
+    category: "accessories",
+    image: img24,
+    description: "    خاتم استانلس عليه ضمان ومتريال قويه جدا",
+  },
+     {
+    id: "36",
+    name: "  سلسله داليه طويله",
+    price: 140,
+    oldPrice: 160,
+    category: "accessories",
+    image: img25,
+    description: "    سلسله داليه طويله تحفه ومتريال قويه جدا",
+  },
+     {
+    id: "37",
+    name: "  سلسله حمصه طويله",
+    price: 120,
+    oldPrice: 140,
+    category: "accessories",
+    image: img26,
+    description: "    سلسله حمصه طويله تحفه ومتريال قويه جدا",
   },
 ];
