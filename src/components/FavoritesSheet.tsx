@@ -1,6 +1,6 @@
 import { Heart, PackageOpen } from "lucide-react";
 import { useFavorites } from "@/contexts/FavoritesContext";
-import { products, Product } from "@/data/products";
+import { products } from "@/data/products";
 import { useCart } from "@/contexts/CartContext";
 import { openWhatsAppSingle } from "@/utils/whatsapp";
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
@@ -53,26 +53,31 @@ export default function FavoritesSheet({ open, onClose }: FavoritesSheetProps) {
                   </p>
                   <div className="flex gap-1.5 mt-2">
                     <button
+                      type="button"
                       onClick={() => openWhatsAppSingle(product)}
-                      className="flex items-center gap-1 bg-whatsapp text-whatsapp-foreground text-xs font-medium px-2.5 py-1 rounded-lg hover:opacity-90 transition-opacity"
+                      className="flex items-center gap-1 bg-whatsapp text-whatsapp-foreground text-xs font-medium px-2.5 py-1 rounded-lg hover:opacity-90 transition-opacity focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                     >
-                      <MessageCircle className="h-3 w-3" />
+                      <MessageCircle className="h-3 w-3" aria-hidden />
                       واتساب
                     </button>
                     <button
+                      type="button"
                       onClick={() => addToCart(product)}
-                      className="flex items-center gap-1 bg-card text-card-foreground text-xs px-2.5 py-1 rounded-lg hover:bg-accent transition-colors"
+                      className="flex items-center gap-1 bg-card text-card-foreground text-xs px-2.5 py-1 rounded-lg hover:bg-accent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                      aria-label={`أضف ${product.name} إلى السلة`}
                     >
-                      <Plus className="h-3 w-3" />
+                      <Plus className="h-3 w-3" aria-hidden />
                       السلة
                     </button>
                   </div>
                 </div>
                 <button
+                  type="button"
                   onClick={() => toggleFavorite(product.id)}
-                  className="p-1 h-fit text-primary hover:text-destructive transition-colors"
+                  className="p-1 h-fit text-primary hover:text-destructive transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                  aria-label={`إزالة ${product.name} من المفضلة`}
                 >
-                  <X className="h-4 w-4" />
+                  <X className="h-4 w-4" aria-hidden />
                 </button>
               </div>
             ))}

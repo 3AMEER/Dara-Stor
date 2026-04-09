@@ -9,7 +9,7 @@ interface CartSheetProps {
 }
 
 export default function CartSheet({ open, onClose }: CartSheetProps) {
-  const { items, removeFromCart, updateQuantity, totalPrice, clearCart } = useCart();
+  const { items, removeFromCart, updateQuantity, totalPrice } = useCart();
 
   const handleCheckout = () => {
     if (items.length === 0) return;
@@ -53,25 +53,33 @@ export default function CartSheet({ open, onClose }: CartSheetProps) {
                     </p>
                     <div className="flex items-center gap-2 mt-2">
                       <button
+                        type="button"
                         onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
-                        className="p-1 rounded-lg bg-card hover:bg-accent transition-colors"
+                        className="p-1 rounded-lg bg-card hover:bg-accent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                        aria-label={`تقليل كمية ${item.product.name}`}
                       >
-                        <Minus className="h-3 w-3" />
+                        <Minus className="h-3 w-3" aria-hidden />
                       </button>
-                      <span className="text-sm font-medium w-6 text-center">{item.quantity}</span>
+                      <span className="text-sm font-medium w-6 text-center" aria-live="polite">
+                        {item.quantity}
+                      </span>
                       <button
+                        type="button"
                         onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
-                        className="p-1 rounded-lg bg-card hover:bg-accent transition-colors"
+                        className="p-1 rounded-lg bg-card hover:bg-accent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                        aria-label={`زيادة كمية ${item.product.name}`}
                       >
-                        <Plus className="h-3 w-3" />
+                        <Plus className="h-3 w-3" aria-hidden />
                       </button>
                     </div>
                   </div>
                   <button
+                    type="button"
                     onClick={() => removeFromCart(item.product.id)}
-                    className="p-1 h-fit text-muted-foreground hover:text-destructive transition-colors"
+                    className="p-1 h-fit text-muted-foreground hover:text-destructive transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    aria-label={`إزالة ${item.product.name} من السلة`}
                   >
-                    <X className="h-4 w-4" />
+                    <X className="h-4 w-4" aria-hidden />
                   </button>
                 </div>
               ))}
@@ -84,8 +92,9 @@ export default function CartSheet({ open, onClose }: CartSheetProps) {
                 <span>{totalPrice} جنيه</span>
               </div>
               <button
+                type="button"
                 onClick={handleCheckout}
-                className="w-full flex items-center justify-center gap-2 bg-whatsapp text-whatsapp-foreground font-bold py-3 rounded-xl hover:opacity-90 transition-opacity"
+                className="w-full flex items-center justify-center gap-2 bg-whatsapp text-whatsapp-foreground font-bold py-3 rounded-xl hover:opacity-90 transition-opacity focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               >
                 <MessageCircle className="h-5 w-5" />
                 إتمام الطلب عبر واتساب

@@ -48,6 +48,7 @@ export default function FilterDrawer({
               value={priceRange}
               onValueChange={(v) => onPriceRangeChange(v as [number, number])}
               className="mb-2"
+              aria-label="نطاق السعر بالجنيه"
             />
             <div className="flex justify-between text-xs text-muted-foreground">
               <span>{priceRange[0]} جنيه</span>
@@ -62,8 +63,10 @@ export default function FilterDrawer({
               {sortOptions.map((opt) => (
                 <button
                   key={opt.value}
+                  type="button"
                   onClick={() => onSortChange(opt.value)}
-                  className={`text-right px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${
+                  aria-pressed={sort === opt.value}
+                  className={`text-right px-4 py-2.5 rounded-xl text-sm font-medium transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
                     sort === opt.value
                       ? "bg-primary text-primary-foreground"
                       : "bg-secondary text-secondary-foreground hover:bg-accent"
@@ -76,8 +79,9 @@ export default function FilterDrawer({
           </div>
 
           <button
+            type="button"
             onClick={onClose}
-            className="w-full py-3 bg-primary text-primary-foreground font-bold rounded-xl hover:opacity-90 transition-opacity"
+            className="w-full py-3 bg-primary text-primary-foreground font-bold rounded-xl hover:opacity-90 transition-opacity focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
           >
             تطبيق
           </button>

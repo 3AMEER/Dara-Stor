@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { SlidersHorizontal, PackageOpen } from "lucide-react";
 import { products } from "@/data/products";
 import Header from "@/components/Header";
@@ -9,7 +9,6 @@ import ProductModal from "@/components/ProductModal";
 import CartSheet from "@/components/CartSheet";
 import MobileBottomBar from "@/components/MobileBottomBar";
 import FavoritesSheet from "@/components/FavoritesSheet";
-import ProductSkeleton from "@/components/ProductSkeleton";
 import { Product } from "@/data/products";
 
 export default function Index() {
@@ -21,15 +20,9 @@ export default function Index() {
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 500]);
   const [sort, setSort] = useState<SortOption>("bestselling");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 800);
-    return () => clearTimeout(timer);
-  }, []);
 
   const filtered = useMemo(() => {
-    let result = products.filter((p) => {
+    const result = products.filter((p) => {
       if (category !== "all" && p.category !== category) return false;
       if (p.price < priceRange[0] || p.price > priceRange[1]) return false;
       if (searchQuery && !p.name.includes(searchQuery)) return false;
@@ -44,6 +37,12 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-background pb-20 md:pb-0">
+      <a
+        href="#main-content"
+        className="fixed z-[100] top-3 right-3 -translate-y-[120%] opacity-0 pointer-events-none focus:translate-y-0 focus:opacity-100 focus:pointer-events-auto px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium shadow-lg transition-all outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+      >
+        تخطي إلى المنتجات
+      </a>
       <Header
         onCartOpen={() => setCartOpen(true)}
         onFavoritesOpen={() => setFavoritesOpen(true)}
@@ -51,30 +50,27 @@ export default function Index() {
         onSearchChange={setSearchQuery}
       />
 
-      <div className="container">
+      <main id="main-content" className="container" tabIndex={-1}>
+        <h1 className="sr-only">منتجات المتجر</h1>
         {/* Category + Filter */}
         <div className="flex items-center gap-2">
           <div className="flex-1 overflow-hidden">
             <CategoryFilters active={category} onChange={setCategory} />
           </div>
           <button
+            type="button"
             onClick={() => setFilterOpen(true)}
             className="shrink-0 p-2.5 rounded-xl bg-secondary text-secondary-foreground hover:bg-accent transition-colors"
+            aria-label="تصفية وترتيب المنتجات"
           >
-            <SlidersHorizontal className="h-4 w-4" />
+            <SlidersHorizontal className="h-4 w-4" aria-hidden />
           </button>
         </div>
 
         {/* Product Grid */}
-        {loading ? (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 mt-3">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <ProductSkeleton key={i} />
-            ))}
-          </div>
-        ) : filtered.length === 0 ? (
+        {filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-20 text-muted-foreground gap-3">
-            <PackageOpen className="h-16 w-16 opacity-30" />
+            <PackageOpen className="h-16 w-16 opacity-30" aria-hidden />
             <p className="text-sm">لا توجد منتجات مطابقة</p>
           </div>
         ) : (
@@ -88,7 +84,7 @@ export default function Index() {
             ))}
           </div>
         )}
-      </div>
+      </main>
 
       {/* Modals & Sheets */}
       <ProductModal
