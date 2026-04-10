@@ -373,6 +373,7 @@ export const products: Product[] = [
     image: img36,
     description: "    سلسله قلب حمصه  تحفه ومتريال قويه جدا",
   },
+  
     {
     id: "48",
     name: "  خاتم",
