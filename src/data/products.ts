@@ -38,6 +38,15 @@ import img27 from "../img/Product27.jpeg";
 import img28 from "../img/Product28.jpeg";
 import img29 from "../img/Product29.jpeg";
 import img30 from "../img/Product30.jpeg";
+import img31 from "../img/product31.jpeg";
+import img32 from "../img/product32.jpeg";
+import img33 from "../img/product33.jpeg";
+import img34 from "../img/product34.jpeg";
+import img35 from "../img/product35.jpeg";
+import img36 from "../img/Product36.jpeg";
+import img37 from "../img/Product37.jpeg";
+import img38 from "../img/Product38.jpeg";
+import img39 from "../img/Product39.jpeg";
 
 export const products: Product[] = [
   {
@@ -309,5 +318,86 @@ export const products: Product[] = [
     category: "skincare",
     image: img30,
     description: "سيروم الريتينول لتجديد خلايا البشرة وتقليل المسام الواسعه وعلاج تصبغات البشرة، التجاعيد وعلامات التقدم في العمر لا غنى عنه لاى امرأة بعد الثلاثين.",
+  },
+    {
+    id: "42",
+    name: "  انسيال تنس سيلفر",
+    price: 90,
+    oldPrice: 120,
+    category: "accessories",
+    image: img31,
+    description: "    انسيال تنس سيلفر تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "43",
+    name: "  انسيال كابلز استانلس",
+    price: 100,
+    oldPrice: 140,
+    category: "accessories",
+    image: img32,
+    description: "    انسيال كابلز استانلس تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "44",
+    name: "  سلسله تلات قطع",
+    price: 190,
+    oldPrice: 220,
+    category: "accessories",
+    image: img33,
+    description: "    سلسله تلات قطع تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "45",
+    name: " اسوره كارتير مشرط",
+    price: 100,
+    oldPrice: 120,
+    category: "accessories",
+    image: img34,
+    description: "    اسوره كارتير مشرط تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "46",
+    name: "  سلسله 5 ادوار",
+    price: 150,
+    oldPrice: 180,
+    category: "accessories",
+    image: img35,
+    description: "    سلسله 5 ادوار تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "47",
+    name: " سلسله قلب حمصه ",
+    price: 90,
+    oldPrice: 120,
+    category: "accessories",
+    image: img36,
+    description: "    سلسله قلب حمصه  تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "48",
+    name: "  خاتم",
+    price: 40,
+    oldPrice: 50,
+    category: "accessories",
+    image: img37,
+    description: "  خاتم مقاسات 7.8.9 تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "49",
+    name: " خاتم",
+    price: 40,
+    oldPrice: 50,
+    category: "accessories",
+    image: img38,
+    description: "    خاتم مقاسات 7.8.9 تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "50",
+    name: "  خاتم اسكوير شكل جديد",
+    price: 80,
+    oldPrice: 110,
+    category: "accessories",
+    image: img39,
+    description: "    خاتم اسكوير شكل جديد تحفه ومتريال قويه جدا",
   },
 ];
