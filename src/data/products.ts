@@ -47,6 +47,18 @@ import img36 from "../img/Product36.jpeg";
 import img37 from "../img/Product37.jpeg";
 import img38 from "../img/Product38.jpeg";
 import img39 from "../img/Product39.jpeg";
+import img40 from "../img/product40.jpeg";
+import img41 from "../img/product41.jpeg";
+import img42 from "../img/Product42.jpeg";
+import img43 from "../img/Product43.jpeg";
+import img44 from "../img/Product44.jpeg";
+import img45 from "../img/product45.jpeg";
+import img46 from "../img/product46.jpeg";
+import img47 from "../img/Product47.jpeg";
+import img48 from "../img/Product48.jpeg";
+import img49 from "../img/Product49.jpeg";
+import img50 from "../img/product50.jpeg";
+import img51 from "../img/product51.jpeg";
 
 export const products: Product[] = [
   {
@@ -400,5 +412,113 @@ export const products: Product[] = [
     category: "accessories",
     image: img39,
     description: "    خاتم اسكوير شكل جديد تحفه ومتريال قويه جدا",
+  },
+      {
+    id: "51",
+    name: "خاتم استانلس حلقات",
+    price: 40,
+    oldPrice: 50,
+    category: "accessories",
+    image: img40,
+    description: "    خاتم استانلس حلقات تحفه متريال قويه جدا",
+  },
+    {
+    id: "52",
+    name: " سلسله فصوص استانلس",
+    price: 90,
+    oldPrice: 110,
+    category: "accessories",
+    image: img41,
+    description: "    سلسله فصوص استانلس تحفه ومتريال قويه جدا",
+  },
+      {
+    id: "53",
+    name: " طقم اسكوير جولد بلاتيد",
+    price: 300,
+    oldPrice: 350,
+    category: "accessories",
+    image: img42,
+    description: "   اسوره خاتم سلسله تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "54",
+    name: "  خاتم استانلس ستيل فري سايز",
+    price: 40,
+    oldPrice: 50,
+    category: "accessories",
+    image: img43,
+    description: "   خاتم استانلس ستيل فري سايز تحفه ومتريال تحفه جدا",
+  },
+     {
+    id: "55",
+    name: "  خاتم اسكوير سيلفر",
+    price: 80,
+    oldPrice: 100,
+    category: "accessories",
+    image: img44,
+    description: "    خاتم اسكوير شكل جديد تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "56",
+    name: "  خاتم فري سايز",
+    price: 40,
+    oldPrice: 50,
+    category: "accessories",
+    image: img45,
+    description: "   خاتم فري سايز تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "57",
+    name: " خاتم فري سايز ",
+    price: 40,
+    oldPrice: 50,
+    category: "accessories",
+    image: img46,
+    description: "    خاتم فري سايز تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "58",
+    name: "  Set خواتم",
+    price: 240,
+    oldPrice: 260,
+    category: "accessories",
+    image: img47,
+    description: "    خاتم Set تحفه ومتريال قويه جدا",
+  },
+    {
+    id: "59",
+    name: "  خاتم فري سايز هلال + خاتم استراس",
+    price: 40+90,
+    oldPrice: 100,
+    category: "accessories",
+    image: img48,
+    description: "    خاتم فري سايز هلال + خاتم استراس مقاسات 9.7..8 والمتريال تحفه",
+  },
+    {
+    id: "60",
+    name: "  سلاسل بامب استراس + سلاسل بامب بدوب استراس",
+    price: 90+80,
+    oldPrice: 100,
+    category: "accessories",
+    image: img49,
+    description: "   سلاسل بامب استراس + سلاسل بامب بدوب استراس المتريال تاعتهم تحفه جاد",
+  },
+    {
+    id: "61",
+    name: "  ساعه سيلفر +انسيال توليب سيلفر",
+    price: 230+100,
+    oldPrice: 250+120,
+    category: "accessories",
+    image: img50,
+    description: "  متاح كل الاوان والمتريال تحفه جدا ساعه سيلفر +انسيال توليب سيلفر",
+  },
+    {
+    id: "62",
+    name: "  ساعه جلد اسود",
+    price: 180,
+    oldPrice: 200,
+    category: "accessories",
+    image: img51,
+    description: "    ساعه جلد اسود متاح كل الاوان تحفه ومتريال قويه جدا",
   },
 ];
