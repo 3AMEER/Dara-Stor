@@ -68,18 +68,20 @@ export const products: Product[] = [
     oldPrice: 180,
     category: "accessories",
     image: img1,
-    description: "كريم مرطب غني بحمض الهيالورونيك يعيد الترطيب العميق للبشرة ويمنحها نضارة طبيعية تدوم طوال اليوم.",
+    description:
+      "كريم مرطب غني بحمض الهيالورونيك يعيد الترطيب العميق للبشرة ويمنحها نضارة طبيعية تدوم طوال اليوم.",
   },
-    {
+  {
     id: "13",
     name: "ساعات شي إن التحفه",
     price: 230,
     oldPrice: 250,
     category: "accessories",
     image: img2,
-    description: "ساعه اوريجنال ومنسيابه لجميع الاعمار ويوجد جميع الاوان والاحجام   ",
+    description:
+      "ساعه اوريجنال ومنسيابه لجميع الاعمار ويوجد جميع الاوان والاحجام   ",
   },
-     {
+  {
     id: "14",
     name: "  هاند اتشين جولد ",
     price: 130,
@@ -88,7 +90,7 @@ export const products: Product[] = [
     image: img3,
     description: "    هاند اتشين جولد اناقه وتحفه وماتريال قويه جدا",
   },
-      {
+  {
     id: "15",
     name: " سلسله بامب",
     price: 80,
@@ -97,16 +99,17 @@ export const products: Product[] = [
     image: img4,
     description: "  سلاسل حروف اناقه وشياكه ومتريال  استانلس ستيل قويه جدا ",
   },
-      {
+  {
     id: "16",
     name: "  هاند اتشين جولد ",
     price: 180,
     oldPrice: 200,
     category: "accessories",
     image: img5,
-    description: "   شنط بناتي احدث موديل تحفه ومتريال قومي جدا وتعيش معاكي ويوجد منها جميع الاوان ",
+    description:
+      "   شنط بناتي احدث موديل تحفه ومتريال قومي جدا وتعيش معاكي ويوجد منها جميع الاوان ",
   },
-      {
+  {
     id: "17",
     name: "  هاند اتشين جولد بالخاتم بتاعه",
     price: 140,
@@ -115,16 +118,17 @@ export const products: Product[] = [
     image: img6,
     description: "    هاند اتشين جولد اناقه وتحفه وماتريال قويه جدا",
   },
-      {
+  {
     id: "18",
     name: "  خاتم اسكوير جولد",
     price: 80,
     oldPrice: 110,
     category: "accessories",
     image: img7,
-    description: "   خاتم اسكوير جولد خاتم تحفه وفي منه جميع المقسات ومتريال قويه جدا ",
+    description:
+      "   خاتم اسكوير جولد خاتم تحفه وفي منه جميع المقسات ومتريال قويه جدا ",
   },
-      {
+  {
     id: "19",
     name: "  هاند اتشين جولد ",
     price: 120,
@@ -133,7 +137,7 @@ export const products: Product[] = [
     image: img8,
     description: "    هاند اتشين جولد اناقه وتحفه وماتريال قويه جدا",
   },
-      {
+  {
     id: "20",
     name: "  خاتم فري سايز",
     price: 40,
@@ -142,7 +146,7 @@ export const products: Product[] = [
     image: img9,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-    {
+  {
     id: "21",
     name: "  خاتم فري سايز",
     price: 40,
@@ -151,7 +155,7 @@ export const products: Product[] = [
     image: img10,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-   {
+  {
     id: "22",
     name: "  خاتم فري سايز",
     price: 40,
@@ -160,7 +164,7 @@ export const products: Product[] = [
     image: img11,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-   {
+  {
     id: "23",
     name: "  خاتم فري سايز",
     price: 40,
@@ -169,7 +173,7 @@ export const products: Product[] = [
     image: img12,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-   {
+  {
     id: "24",
     name: "  خاتم فري سايز",
     price: 40,
@@ -178,7 +182,7 @@ export const products: Product[] = [
     image: img13,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-   {
+  {
     id: "25",
     name: "  خاتم فري سايز",
     price: 40,
@@ -187,7 +191,7 @@ export const products: Product[] = [
     image: img14,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-   {
+  {
     id: "26",
     name: "  خاتم فري سايز",
     price: 40,
@@ -196,7 +200,7 @@ export const products: Product[] = [
     image: img15,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-     {
+  {
     id: "27",
     name: "  سلسله احجار فصوص",
     price: 150,
@@ -205,7 +209,7 @@ export const products: Product[] = [
     image: img16,
     description: "    سلسله احجار فصوص تحفه ومتريال قويه جدا ",
   },
-     {
+  {
     id: "28",
     name: "  هاندتشين استانلس",
     price: 110,
@@ -214,7 +218,7 @@ export const products: Product[] = [
     image: img17,
     description: "    هاندتشين استانلس تحفه ومتريال قويه جدا",
   },
-     {
+  {
     id: "29",
     name: "  خاتم فري سايز",
     price: 40,
@@ -223,7 +227,7 @@ export const products: Product[] = [
     image: img18,
     description: "    خاتم فري سايز تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-     {
+  {
     id: "30",
     name: "  منظم اكسسورات",
     price: 40,
@@ -232,7 +236,7 @@ export const products: Product[] = [
     image: img19,
     description: "    منظم اكسسورات تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-     {
+  {
     id: "31",
     name: " حلقان بيرسنج  جولد بلاتيد",
     price: 140,
@@ -241,7 +245,7 @@ export const products: Product[] = [
     image: img20,
     description: "    حلقان بيرسنج  جولد بلاتيد تحفه ومتريال قويه جدا",
   },
-     {
+  {
     id: "32",
     name: "  شنطه يد",
     price: 220,
@@ -250,7 +254,7 @@ export const products: Product[] = [
     image: img21,
     description: "    شنطه يد تحفه وفي منه جميع المقسات ومتريال قويه جدا",
   },
-     {
+  {
     id: "33",
     name: "  انسيال تلاته دور تحفه ",
     price: 110,
@@ -259,7 +263,7 @@ export const products: Product[] = [
     image: img22,
     description: "    انسيال تلاته دور تحفه ومتريال قويه جدا",
   },
-     {
+  {
     id: "34",
     name: "  انسيال دورين",
     price: 130,
@@ -268,7 +272,7 @@ export const products: Product[] = [
     image: img23,
     description: "    انسيال دورين تحفه ومتريال قويه جدا",
   },
-     {
+  {
     id: "35",
     name: "  خاتم استانلس عليه ضمان",
     price: 90,
@@ -277,7 +281,7 @@ export const products: Product[] = [
     image: img24,
     description: "    خاتم استانلس عليه ضمان ومتريال قويه جدا",
   },
-     {
+  {
     id: "36",
     name: "  سلسله داليه طويله",
     price: 140,
@@ -286,7 +290,7 @@ export const products: Product[] = [
     image: img25,
     description: "    سلسله داليه طويله تحفه ومتريال قويه جدا",
   },
-     {
+  {
     id: "37",
     name: "  سلسله حمصه طويله",
     price: 120,
@@ -295,25 +299,27 @@ export const products: Product[] = [
     image: img26,
     description: "    سلسله حمصه طويله تحفه ومتريال قويه جدا",
   },
-     {
+  {
     id: "38",
     name: "  جان جيل ترطيب البشرة الدهنية",
     price: 120,
     oldPrice: 140,
     category: "skincare",
     image: img27,
-    description: "جان جيل ترطيب البشرة الدهنية والمعرضة لظهور الحبوب والبثور، ويعالج المسام الواسعه",
+    description:
+      "جان جيل ترطيب البشرة الدهنية والمعرضة لظهور الحبوب والبثور، ويعالج المسام الواسعه",
   },
-     {
+  {
     id: "39",
     name: "زعفران سيروم لتوريد الشفاه والخدود",
     price: 120,
     oldPrice: 140,
     category: "skincare",
     image: img28,
-    description: " زعفران سيروم لتوريد الشفاه والخدود بديل البلشر يرطب البشرة ،يحتوى على الكولاجين ويعطى توريد طبيعى 💯 💯",
+    description:
+      " زعفران سيروم لتوريد الشفاه والخدود بديل البلشر يرطب البشرة ،يحتوى على الكولاجين ويعطى توريد طبيعى 💯 💯",
   },
-     {
+  {
     id: "40",
     name: "دراى أويل شيمر ترطيب، لمعه جذابة",
     price: 120,
@@ -322,16 +328,17 @@ export const products: Product[] = [
     image: img29,
     description: "دراى أويل شيمر ترطيب، لمعه جذابة",
   },
-     {
+  {
     id: "41",
     name: "سيروم الريتينول لتجديد خلايا البشرة وتقليل المسام الواسعه",
     price: 120,
     oldPrice: 140,
     category: "skincare",
     image: img30,
-    description: "سيروم الريتينول لتجديد خلايا البشرة وتقليل المسام الواسعه وعلاج تصبغات البشرة، التجاعيد وعلامات التقدم في العمر لا غنى عنه لاى امرأة بعد الثلاثين.",
+    description:
+      "سيروم الريتينول لتجديد خلايا البشرة وتقليل المسام الواسعه وعلاج تصبغات البشرة، التجاعيد وعلامات التقدم في العمر لا غنى عنه لاى امرأة بعد الثلاثين.",
   },
-    {
+  {
     id: "42",
     name: "  انسيال تنس سيلفر",
     price: 90,
@@ -340,7 +347,7 @@ export const products: Product[] = [
     image: img31,
     description: "    انسيال تنس سيلفر تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "43",
     name: "  انسيال كابلز استانلس",
     price: 100,
@@ -349,7 +356,7 @@ export const products: Product[] = [
     image: img32,
     description: "    انسيال كابلز استانلس تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "44",
     name: "  سلسله تلات قطع",
     price: 190,
@@ -358,7 +365,7 @@ export const products: Product[] = [
     image: img33,
     description: "    سلسله تلات قطع تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "45",
     name: " اسوره كارتير مشرط",
     price: 100,
@@ -367,7 +374,7 @@ export const products: Product[] = [
     image: img34,
     description: "    اسوره كارتير مشرط تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "46",
     name: "  سلسله 5 ادوار",
     price: 150,
@@ -376,7 +383,7 @@ export const products: Product[] = [
     image: img35,
     description: "    سلسله 5 ادوار تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "47",
     name: " سلسله قلب حمصه ",
     price: 90,
@@ -385,7 +392,7 @@ export const products: Product[] = [
     image: img36,
     description: "    سلسله قلب حمصه  تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "48",
     name: "  خاتم",
     price: 40,
@@ -394,8 +401,8 @@ export const products: Product[] = [
     image: img37,
     description: "  خاتم مقاسات 7.8.9 تحفه ومتريال قويه جدا",
   },
-  
-    {
+
+  {
     id: "49",
     name: " خاتم",
     price: 40,
@@ -404,7 +411,7 @@ export const products: Product[] = [
     image: img38,
     description: "    خاتم مقاسات 7.8.9 تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "50",
     name: "  خاتم اسكوير شكل جديد",
     price: 80,
@@ -413,7 +420,7 @@ export const products: Product[] = [
     image: img39,
     description: "    خاتم اسكوير شكل جديد تحفه ومتريال قويه جدا",
   },
-      {
+  {
     id: "51",
     name: "خاتم استانلس حلقات",
     price: 40,
@@ -422,7 +429,7 @@ export const products: Product[] = [
     image: img40,
     description: "    خاتم استانلس حلقات تحفه متريال قويه جدا",
   },
-    {
+  {
     id: "52",
     name: " سلسله فصوص استانلس",
     price: 90,
@@ -431,7 +438,7 @@ export const products: Product[] = [
     image: img41,
     description: "    سلسله فصوص استانلس تحفه ومتريال قويه جدا",
   },
-      {
+  {
     id: "53",
     name: " طقم اسكوير جولد بلاتيد",
     price: 300,
@@ -440,7 +447,7 @@ export const products: Product[] = [
     image: img42,
     description: "   اسوره خاتم سلسله تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "54",
     name: "  خاتم استانلس ستيل فري سايز",
     price: 40,
@@ -449,7 +456,7 @@ export const products: Product[] = [
     image: img43,
     description: "   خاتم استانلس ستيل فري سايز تحفه ومتريال تحفه جدا",
   },
-     {
+  {
     id: "55",
     name: "  خاتم اسكوير سيلفر",
     price: 80,
@@ -458,7 +465,7 @@ export const products: Product[] = [
     image: img44,
     description: "    خاتم اسكوير شكل جديد تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "56",
     name: "  خاتم فري سايز",
     price: 40,
@@ -467,7 +474,7 @@ export const products: Product[] = [
     image: img45,
     description: "   خاتم فري سايز تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "57",
     name: " خاتم فري سايز ",
     price: 40,
@@ -476,7 +483,7 @@ export const products: Product[] = [
     image: img46,
     description: "    خاتم فري سايز تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "58",
     name: "  Set خواتم",
     price: 240,
@@ -485,34 +492,37 @@ export const products: Product[] = [
     image: img47,
     description: "    خاتم Set تحفه ومتريال قويه جدا",
   },
-    {
+  {
     id: "59",
     name: "  خاتم فري سايز هلال + خاتم استراس",
-    price: 40+90,
+    price: 40 + 90,
     oldPrice: 100,
     category: "accessories",
     image: img48,
-    description: "    خاتم فري سايز هلال + خاتم استراس مقاسات 9.7..8 والمتريال تحفه",
+    description:
+      "    خاتم فري سايز هلال + خاتم استراس مقاسات 9.7..8 والمتريال تحفه",
   },
-    {
+  {
     id: "60",
     name: "  سلاسل بامب استراس + سلاسل بامب بدوب استراس",
-    price: 90+80,
+    price: 90 + 80,
     oldPrice: 100,
     category: "accessories",
     image: img49,
-    description: "   سلاسل بامب استراس + سلاسل بامب بدوب استراس المتريال تاعتهم تحفه جاد",
+    description:
+      "   سلاسل بامب استراس + سلاسل بامب بدوب استراس المتريال تاعتهم تحفه جاد",
   },
-    {
+  {
     id: "61",
     name: "  ساعه سيلفر +انسيال توليب سيلفر",
-    price: 230+100,
-    oldPrice: 250+120,
+    price: 230 + 100,
+    oldPrice: 250 + 120,
     category: "accessories",
     image: img50,
-    description: "  متاح كل الاوان والمتريال تحفه جدا ساعه سيلفر +انسيال توليب سيلفر",
+    description:
+      "  متاح كل الاوان والمتريال تحفه جدا ساعه سيلفر +انسيال توليب سيلفر",
   },
-    {
+  {
     id: "62",
     name: "  ساعه جلد اسود",
     price: 180,
