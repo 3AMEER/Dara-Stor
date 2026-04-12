@@ -38,27 +38,27 @@ import img27 from "../img/Product27.jpeg";
 import img28 from "../img/Product28.jpeg";
 import img29 from "../img/Product29.jpeg";
 import img30 from "../img/Product30.jpeg";
-import img31 from "../img/product31.jpeg";
-import img32 from "../img/product32.jpeg";
-import img33 from "../img/product33.jpeg";
-import img34 from "../img/product34.jpeg";
-import img35 from "../img/product35.jpeg";
+import img31 from "../img/Product31.jpeg";
+import img32 from "../img/Product32.jpeg";
+import img33 from "../img/Product33.jpeg";
+import img34 from "../img/Product34.jpeg";
+import img35 from "../img/Product35.jpeg";
 import img36 from "../img/Product36.jpeg";
 import img37 from "../img/Product37.jpeg";
 import img38 from "../img/Product38.jpeg";
 import img39 from "../img/Product39.jpeg";
-import img40 from "../img/product40.jpeg";
-import img41 from "../img/product41.jpeg";
+import img40 from "../img/Product40.jpeg";
+import img41 from "../img/Product41.jpeg";
 import img42 from "../img/Product42.jpeg";
 import img43 from "../img/Product43.jpeg";
 import img44 from "../img/Product44.jpeg";
-import img45 from "../img/product45.jpeg";
-import img46 from "../img/product46.jpeg";
+import img45 from "../img/Product45.jpeg";
+import img46 from "../img/Product46.jpeg";
 import img47 from "../img/Product47.jpeg";
 import img48 from "../img/Product48.jpeg";
 import img49 from "../img/Product49.jpeg";
-import img50 from "../img/product50.jpeg";
-import img51 from "../img/product51.jpeg";
+import img50 from "../img/Product50.jpeg";
+import img51 from "../img/Product51.jpeg";
 
 export const products: Product[] = [
   {
